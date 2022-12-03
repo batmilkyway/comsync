@@ -71,12 +71,12 @@
     "@babel/core": "7.12.17",
     "@babel/preset-env": "7.12.17",
     "babel-eslint": "10.1.0",
-    "comlink": "^4.3.1",
+    "comlink": "git://github.com:batmilkyway/comlink.git",
     "eslint": "7.32.0",
     "html-webpack-plugin": "^5.5.0",
     "prettier": "2.1.2",
     "prettier-plugin-packagejson": "2.2.13",
-    "sync-message": "^0.0.10",
+    "sync-message": "git://github.com:batmilkyway/sync-message.git",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.5",
     "webpack": "^5.66.0",
@@ -85,7 +85,7 @@
     "worker-loader": "^3.0.8"
   },
   "peerDependencies": {
-    "comlink": "*",
-    "sync-message": "*"
+    "comlink": "git://github.com:batmilkyway/comlink.git",
+    "sync-message": "git://github.com:batmilkyway/sync-message.git"
   }
 }
